@@ -18,7 +18,7 @@ export class BodyComponent {
       styleClass = 'body-md-screen';
     }
 
-    return 'styleClass'; 
+    return styleClass; 
 
   }
 
