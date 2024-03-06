@@ -16,7 +16,8 @@ import { PagesComponent }  from './components/pages/pages.component'
 import { ProductsComponent }  from './components/products/products.component'
 import { SettingsComponent }  from './components/settings/settings.component'
 import { SidenavComponent }  from './components/sidenav/sidenav.component'
-import { StatisticsComponent }  from './components/statistics/statistics.component'
+import { StatisticsComponent }  from './components/statistics/statistics.component';
+import { TopnavComponent } from './components/topnav/topnav.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { StatisticsComponent }  from './components/statistics/statistics.compone
     SettingsComponent,
     SidenavComponent,
     
-    StatisticsComponent
+    StatisticsComponent,
+          TopnavComponent
 
   ],
   imports: [
